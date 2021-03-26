@@ -1,4 +1,4 @@
 # React-Image-Translate-X
 
-#GSAP
+# GSAP
 
