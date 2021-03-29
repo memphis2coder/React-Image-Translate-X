@@ -1,0 +1,45 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section1 {
+    margin: 20px 0;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 4rem;
+}
+
+.img-container {
+    margin: 50px 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 40%;
+}
+
+/* responsive layout for mobile */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 50px;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    img {
+        width: 100%;
+    }
+    img:nth-child(2) {
+        margin-top: 50px;
+    }
+}
